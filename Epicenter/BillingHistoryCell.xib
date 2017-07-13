@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BillingHistoryCell" rowHeight="211" id="wzs-mW-hmC" customClass="BillingHistoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wzs-mW-hmC" id="iXt-V6-SdY">
+                <frame key="frameInset" width="428" height="208"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdl-yv-dXv">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="642-HD-eRA" userLabel="bill_date">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hghg" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sp-VO-c1H" userLabel="current_bill">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gggh" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-lO-igH" userLabel="amt_payable">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bvccb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIY-Vt-DGS" userLabel="invoice_no">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="TA3-of-Afy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LX-Zt-ZOE">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4LX-Zt-ZOE" secondAttribute="height" multiplier="1:1" id="8Np-BR-AP0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUP-cQ-HY1" userLabel="date">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dec" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zB-Ry-5Pd">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLN-VW-yKW" colorLabel="IBBuiltInLabel-Red">
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.36470588240000001" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="nZF-ya-MGD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="Download">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="4"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="downloadCurrentBill:" destination="wzs-mW-hmC" eventType="touchUpInside" id="SC2-o0-svA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.19555495689655172" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CAf-lO-igH" firstAttribute="leading" secondItem="4LX-Zt-ZOE" secondAttribute="trailing" constant="10" id="1mX-B0-b9M"/>
+                            <constraint firstItem="0sp-VO-c1H" firstAttribute="top" secondItem="642-HD-eRA" secondAttribute="bottom" constant="2" id="3IM-Bt-2wY"/>
+                            <constraint firstItem="VIY-Vt-DGS" firstAttribute="top" secondItem="CAf-lO-igH" secondAttribute="bottom" constant="2" id="56L-zJ-HDb"/>
+                            <constraint firstItem="4LX-Zt-ZOE" firstAttribute="leading" secondItem="bdl-yv-dXv" secondAttribute="leading" constant="10" id="6k8-q9-ACZ"/>
+                            <constraint firstItem="vUP-cQ-HY1" firstAttribute="height" secondItem="4LX-Zt-ZOE" secondAttribute="height" multiplier="0.45" id="8Ia-q3-bAw"/>
+                            <constraint firstItem="7zB-Ry-5Pd" firstAttribute="height" secondItem="4LX-Zt-ZOE" secondAttribute="height" multiplier="0.4" id="GIv-vr-vJV"/>
+                            <constraint firstItem="vUP-cQ-HY1" firstAttribute="centerY" secondItem="4LX-Zt-ZOE" secondAttribute="centerY" id="Gms-TV-8ZB"/>
+                            <constraint firstItem="7zB-Ry-5Pd" firstAttribute="leading" secondItem="vUP-cQ-HY1" secondAttribute="trailing" id="H6l-DA-UsM"/>
+                            <constraint firstAttribute="trailing" secondItem="642-HD-eRA" secondAttribute="trailing" constant="18" id="I6U-tn-dRG"/>
+                            <constraint firstItem="0sp-VO-c1H" firstAttribute="leading" secondItem="4LX-Zt-ZOE" secondAttribute="trailing" constant="10" id="IkY-HX-ZUc"/>
+                            <constraint firstAttribute="bottom" secondItem="xLN-VW-yKW" secondAttribute="bottom" constant="5" id="OJQ-tA-26d"/>
+                            <constraint firstItem="vUP-cQ-HY1" firstAttribute="width" secondItem="4LX-Zt-ZOE" secondAttribute="width" multiplier="0.4" id="PWr-kJ-JLv"/>
+                            <constraint firstItem="vUP-cQ-HY1" firstAttribute="centerX" secondItem="4LX-Zt-ZOE" secondAttribute="centerX" multiplier="0.7" id="TgP-0J-Kfv"/>
+                            <constraint firstItem="VIY-Vt-DGS" firstAttribute="leading" secondItem="4LX-Zt-ZOE" secondAttribute="trailing" constant="10" id="Uin-BO-MLk"/>
+                            <constraint firstItem="CAf-lO-igH" firstAttribute="top" secondItem="0sp-VO-c1H" secondAttribute="bottom" constant="2" id="VVy-Fs-ik2"/>
+                            <constraint firstItem="7zB-Ry-5Pd" firstAttribute="centerX" secondItem="4LX-Zt-ZOE" secondAttribute="centerX" multiplier="1.4" id="Yzu-MA-OWf"/>
+                            <constraint firstAttribute="trailing" secondItem="xLN-VW-yKW" secondAttribute="trailing" constant="5" id="bTB-vF-PBc"/>
+                            <constraint firstAttribute="trailing" secondItem="CAf-lO-igH" secondAttribute="trailing" constant="20" id="kbn-qc-pcw"/>
+                            <constraint firstItem="642-HD-eRA" firstAttribute="top" secondItem="bdl-yv-dXv" secondAttribute="top" constant="10" id="lJm-4h-Rr8"/>
+                            <constraint firstItem="7zB-Ry-5Pd" firstAttribute="centerY" secondItem="4LX-Zt-ZOE" secondAttribute="centerY" id="qbR-U6-Knn"/>
+                            <constraint firstItem="4LX-Zt-ZOE" firstAttribute="centerX" secondItem="bdl-yv-dXv" secondAttribute="centerX" multiplier="0.25" id="quv-oY-YN1"/>
+                            <constraint firstItem="4LX-Zt-ZOE" firstAttribute="centerY" secondItem="bdl-yv-dXv" secondAttribute="centerY" id="sFE-Kw-JrR"/>
+                            <constraint firstItem="642-HD-eRA" firstAttribute="leading" secondItem="4LX-Zt-ZOE" secondAttribute="trailing" constant="10" id="sTi-4x-rtc"/>
+                            <constraint firstAttribute="trailing" secondItem="0sp-VO-c1H" secondAttribute="trailing" constant="18" id="yig-qm-fDL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bdl-yv-dXv" firstAttribute="height" secondItem="iXt-V6-SdY" secondAttribute="height" multiplier="0.9" id="Mw9-PC-MMp"/>
+                    <constraint firstItem="bdl-yv-dXv" firstAttribute="centerX" secondItem="iXt-V6-SdY" secondAttribute="centerX" id="br0-16-ITk"/>
+                    <constraint firstItem="bdl-yv-dXv" firstAttribute="width" secondItem="iXt-V6-SdY" secondAttribute="width" multiplier="0.95" id="cHg-g2-u4Y"/>
+                    <constraint firstItem="bdl-yv-dXv" firstAttribute="centerY" secondItem="iXt-V6-SdY" secondAttribute="centerY" id="oQH-E6-bjw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="BillView" destination="bdl-yv-dXv" id="3Qy-hR-xM3"/>
+                <outlet property="amt_payable" destination="CAf-lO-igH" id="aL6-0K-OgX"/>
+                <outlet property="bill_date" destination="642-HD-eRA" id="AOh-EY-3yO"/>
+                <outlet property="current_bill" destination="0sp-VO-c1H" id="SJr-B1-Yg1"/>
+                <outlet property="day" destination="vUP-cQ-HY1" id="pBh-a4-uKx"/>
+                <outlet property="downloadBill" destination="xLN-VW-yKW" id="PpW-l5-nuT"/>
+                <outlet property="invoice_no" destination="VIY-Vt-DGS" id="yjo-Gk-2q1"/>
+                <outlet property="month" destination="7zB-Ry-5Pd" id="ndv-kZ-7yC"/>
+            </connections>
+            <point key="canvasLocation" x="-1062" y="52"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="circle.png" width="142" height="142"/>
+    </resources>
+</document>
